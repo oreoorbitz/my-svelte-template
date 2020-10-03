@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n\texport let name;\n</script>\n\n<main>\n\t<h1>Hello {name}!</h1>\n\t<p>Visit the <a href=\"https://svelte.dev/tutorial\">Svelte tutorial</a> to learn how to build Svelte apps.</p>\n</main>\n\n<style lang=\"scss\">main {\n  text-align: center;\n  padding: 1em;\n  max-width: 240px;\n  margin: 0 auto; }\n\nh1 {\n  color: red;\n  text-transform: uppercase;\n  font-size: 4em;\n  font-weight: 100; }\n\n@media (min-width: 640px) {\n  main {\n    max-width: none; } }\n/*# sourceMappingURL=src/App.svelte.map */</style>\n"
+  ],
+  "names": [],
+  "mappings": "AASmB,IAAI,eAAC,CAAC,AACvB,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,GAAG,CACZ,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,CAAC,CAAC,IAAI,AAAE,CAAC,AAEnB,EAAE,eAAC,CAAC,AACF,KAAK,CAAE,GAAG,CACV,cAAc,CAAE,SAAS,CACzB,SAAS,CAAE,GAAG,CACd,WAAW,CAAE,GAAG,AAAE,CAAC,AAErB,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AACzB,IAAI,eAAC,CAAC,AACJ,SAAS,CAAE,IAAI,AAAE,CAAC,AAAC,CAAC"
+}
